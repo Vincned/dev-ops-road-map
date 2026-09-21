@@ -10,7 +10,12 @@
 * git branch - посмотреть в какой ветке я нахожусь сейчас (активная будет отмечена звездочкой *)
 * git checkout main - переключение на main ветку
 * git pull origin main - подтянуть свежие изменения
-* it switch -c feature/my-new-feature - создание новой ветки с понятным названием
+* git switch -c feature/my-new-feature - создание новой ветки с понятным названием
+
+## Ветки
+* git fetch origin - Обновить список веток с сервера
+* git push origin --delete BRANCH_NAME - удаление ветки с гитхаб
+* git rm BRANCH_NAME - удаление ветки локально
 
 ## Tag's commands
 * git tag -a v1.0.0 -m "Релиз версии 1.0.0" - аннотированный тег - создание полноценного
