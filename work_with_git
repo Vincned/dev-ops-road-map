@@ -1,0 +1,10 @@
+rm -rf .git - удаление папки гит
+git status - проверка статуса гит
+git init - создание чистого репозитория
+git branch -M main - создание главной ветки main 
+Git add . - добавление текущей папки в гит
+Git commit -m "Initial commit" - коммит файлов с комментом
+Git remote add origin https://github.com/Vincned/dev-ops-road-map.git - связываем локальный гит с репозиторием
+Git push -u origin main - выполняем перенос на репозиторий
+
+
